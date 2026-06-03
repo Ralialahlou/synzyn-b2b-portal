@@ -1,0 +1,26 @@
+{
+  "_comment": "Header navigation links and top announcement bar. Edit labels and hrefs to update the menu.",
+
+  "topBar": "BIENVENUE À NOS CLIENTS B2B — LIVRAISON 5-7 JOURS OUVRÉS",
+
+  "mainNav": [
+    { "label": "CATALOGUE", "href": "/catalogue" },
+    { "label": "FORMATION", "href": "/training" },
+    { "label": "FAQ", "href": "/faq" },
+    { "label": "NOUS CONTACTER", "href": "/contact" }
+  ],
+
+  "userMenu": {
+    "loginLabel": "Connexion",
+    "logoutLabel": "Déconnexion",
+    "items": [
+      { "label": "Mon compte", "href": "/dashboard" },
+      { "label": "Mes commandes", "href": "/dashboard/orders" },
+      { "label": "Mon contrat", "href": "/dashboard/contract" }
+    ]
+  },
+
+  "mobileSearch": {
+    "placeholder": "Rechercher..."
+  }
+}

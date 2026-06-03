@@ -1,0 +1,101 @@
+{
+  "_comment": "Image manifest. All paths are relative to the /public folder. Replace any path with your own image to update it sitewide. Dimensions are recommended for best display.",
+
+  "logos": {
+    "_comment": "Three logo variants. Used in Header (light), Footer (light), Login page (dark), Register page (dark). Replace PNG files in /public/",
+    "dark": {
+      "path": "/logo-dark.png",
+      "alt": "SYN+ZYN",
+      "description": "Black logo on white background — used on light backgrounds (login, register pages)",
+      "recommendedSize": "400×400px minimum",
+      "currentFile": "public/logo-dark.png"
+    },
+    "light": {
+      "path": "/logo-light.png",
+      "alt": "SYN+ZYN",
+      "description": "White logo on dark brown background — used on dark backgrounds (header, footer)",
+      "recommendedSize": "400×400px minimum",
+      "currentFile": "public/logo-light.png"
+    },
+    "cream": {
+      "path": "/logo-cream.png",
+      "alt": "SYN+ZYN",
+      "description": "Brown logo on cream background — available as alternative for light neutral backgrounds",
+      "recommendedSize": "400×400px minimum",
+      "currentFile": "public/logo-cream.png"
+    }
+  },
+
+  "seo": {
+    "ogImage": {
+      "path": "/og-image.png",
+      "description": "Default Open Graph image — appears when the site is shared on social media",
+      "recommendedSize": "1200×630px",
+      "currentFile": "public/og-image.png",
+      "_note": "Create this image and place it in /public/ to enable social sharing previews"
+    },
+    "favicon": {
+      "path": "/favicon.svg",
+      "description": "Browser tab icon",
+      "currentFile": "public/favicon.svg"
+    },
+    "appleTouchIcon": {
+      "path": "/apple-touch-icon.png",
+      "description": "iOS home screen icon",
+      "recommendedSize": "180×180px",
+      "currentFile": "public/apple-touch-icon.png",
+      "_note": "Create this file and place it in /public/"
+    }
+  },
+
+  "products": {
+    "_comment": "Product images. Currently products use CSS color blocks as placeholders. To add real images, create files at these paths and update imageUrl in src/data/products.ts",
+    "placeholder": {
+      "description": "Products currently use brand color blocks as placeholders. Add real product images by: 1) placing PNG/JPG files in /public/images/products/, 2) updating the imageUrl field in src/data/products.ts",
+      "folder": "public/images/products/",
+      "namingConvention": "p001-hydra-boost-serum.png, p002-radiance-moisturizer.png, etc.",
+      "recommendedSize": "800×800px, square format, white or transparent background"
+    },
+    "examples": [
+      { "productId": "p001", "suggestedPath": "/images/products/p001-hydra-boost-serum.png" },
+      { "productId": "p002", "suggestedPath": "/images/products/p002-radiance-moisturizer.png" },
+      { "productId": "p003", "suggestedPath": "/images/products/p003-gentle-foam-cleanser.png" },
+      { "productId": "p004", "suggestedPath": "/images/products/p004-balancing-toner.png" },
+      { "productId": "p005", "suggestedPath": "/images/products/p005-matte-foundation.png" },
+      { "productId": "p006", "suggestedPath": "/images/products/p006-full-cover-concealer.png" },
+      { "productId": "p007", "suggestedPath": "/images/products/p007-velvet-lip-color.png" },
+      { "productId": "p008", "suggestedPath": "/images/products/p008-volume-mascara.png" },
+      { "productId": "p009", "suggestedPath": "/images/products/p009-nourishing-body-lotion.png" },
+      { "productId": "p010", "suggestedPath": "/images/products/p010-shower-gel-cedar.png" },
+      { "productId": "p011", "suggestedPath": "/images/products/p011-repair-shampoo.png" },
+      { "productId": "p012", "suggestedPath": "/images/products/p012-repair-conditioner.png" },
+      { "productId": "p013", "suggestedPath": "/images/products/p013-pro-peel.png" },
+      { "productId": "p014", "suggestedPath": "/images/products/p014-spf50-cream.png" }
+    ]
+  },
+
+  "hero": {
+    "_comment": "Hero/banner images. Currently the hero uses CSS-generated product mockups. Replace with real lifestyle photography.",
+    "homeBanner": {
+      "path": "/images/hero/home-banner.jpg",
+      "description": "Home page hero banner — product flat-lay or lifestyle shot",
+      "recommendedSize": "1200×900px, portrait orientation",
+      "_note": "Currently rendered as a CSS illustration. Add a real image file and update src/pages/Home.tsx"
+    },
+    "aboutHero": {
+      "path": "/images/hero/about-hero.jpg",
+      "description": "About page hero background",
+      "recommendedSize": "1600×900px landscape",
+      "_note": "Currently a dark background with CSS. Add image and update src/pages/About.tsx"
+    }
+  },
+
+  "brandAssets": {
+    "_comment": "Brand pattern and texture assets",
+    "pattern": {
+      "path": "/images/brand/pattern.svg",
+      "description": "Brand repeating pattern (SYN+ZYN text watermark)",
+      "_note": "Currently generated via CSS. Can be replaced with a custom SVG pattern."
+    }
+  }
+}

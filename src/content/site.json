@@ -1,0 +1,54 @@
+{
+  "_comment": "Global brand information used across the entire site. Edit this file to update brand name, contact details, company info.",
+
+  "brand": {
+    "name": "SYN+ZYN",
+    "tagline": "simply you.",
+    "slogan": "for all people. everyday.",
+    "uvp": "SYN+ZYN delivers premium-quality beauty at an accessible price, bridging the gap between luxury and everyday.",
+    "essence": "simply you."
+  },
+
+  "company": {
+    "legalName": "KAK SYNERGY SA",
+    "parentGroup": "Groupe AKSAL",
+    "capital": "90 000,00 DH",
+    "address": "Immeuble Tafraouti, Km 7.5, Route de Rabat, Aïn Sebaâ",
+    "city": "Casablanca",
+    "country": "Maroc",
+    "if": "52426360",
+    "rc": "542021",
+    "ice": "003043488000053"
+  },
+
+  "contact": {
+    "email": "commercial@synzyn.ma",
+    "phone": "+212 522 100 200",
+    "whatsapp": "+212 661 100 200",
+    "hours": "Lundi – Vendredi · 9h00 – 18h00"
+  },
+
+  "b2b": {
+    "minOrderValue": 20000,
+    "minOrderLabel": "20 000 MAD HT",
+    "deliveryDaysMin": 5,
+    "deliveryDaysMax": 7,
+    "deliveryLabel": "5-7 jours ouvrés",
+    "vatRate": 0.20,
+    "vatLabel": "TVA 20%"
+  },
+
+  "banking": {
+    "accountHolder": "KAK SYNERGY SA",
+    "bank": "Attijariwafa Bank",
+    "rib": "007 780 0002347891004532 14",
+    "iban": "MA64 007 7800 0023478 9100 4532",
+    "swift": "BCMAMAMC",
+    "paymentEmail": "commercial@synzyn.ma"
+  },
+
+  "seo": {
+    "baseUrl": "https://b2b.synzyn.ma",
+    "defaultOgImage": "/og-image.png"
+  }
+}

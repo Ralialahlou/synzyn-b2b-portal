@@ -1,0 +1,98 @@
+{
+  "_comment": "Training videos and webinars. Set 'restricted: true' for B2B-only content. Add/remove items from 'videos' and 'webinars'.",
+
+  "page": {
+    "overline": "Formation professionnelle",
+    "heading": "Centre de formation",
+    "subheading": "Maîtrisez nos produits et maximisez vos ventes avec nos formations vidéo professionnelles.",
+    "freeSection": "Formations accessibles",
+    "restrictedSection": "Formations clients B2B",
+    "lockedMessage": "Accès réservé aux clients B2B enregistrés",
+    "lockedSubtext": "Connectez-vous pour accéder aux formations avancées et aux protocoles professionnels.",
+    "webinarsSection": "Webinaires à venir",
+    "registerButton": "S'inscrire",
+    "loginRequired": "Connexion requise"
+  },
+
+  "videos": [
+    {
+      "id": "v001",
+      "title": "Introduction à la gamme Skincare SYN+ZYN",
+      "category": "Skincare",
+      "duration": "18 min",
+      "thumbnailColor": "#D9A9B1",
+      "level": "Débutant",
+      "description": "Présentation complète de la gamme skincare : formulations, bénéfices et positionnement professionnel.",
+      "restricted": false
+    },
+    {
+      "id": "v002",
+      "title": "Protocoles de soins — Hydratation intensive",
+      "category": "Skincare",
+      "duration": "24 min",
+      "thumbnailColor": "#B8ABD0",
+      "level": "Intermédiaire",
+      "description": "Apprenez à mettre en place des protocoles de soins hydratants optimaux pour votre clientèle.",
+      "restricted": true
+    },
+    {
+      "id": "v003",
+      "title": "Makeup professionnel — Techniques de base",
+      "category": "Makeup",
+      "duration": "32 min",
+      "thumbnailColor": "#C27279",
+      "level": "Débutant",
+      "description": "Les fondamentaux du maquillage professionnel avec les produits SYN+ZYN.",
+      "restricted": false
+    },
+    {
+      "id": "v004",
+      "title": "PRO Peel — Formation et certification",
+      "category": "PRO",
+      "duration": "45 min",
+      "thumbnailColor": "#3F3132",
+      "level": "Avancé",
+      "description": "Formation complète sur l'utilisation du PRO Peel 30%. Réservé aux professionnels certifiés.",
+      "restricted": true
+    },
+    {
+      "id": "v005",
+      "title": "Body Care — Rituels professionnels",
+      "category": "Body Care",
+      "duration": "20 min",
+      "thumbnailColor": "#D0B9AB",
+      "level": "Intermédiaire",
+      "description": "Développez vos ventes body care avec des rituels et recommandations personnalisées.",
+      "restricted": true
+    },
+    {
+      "id": "v006",
+      "title": "Merchandising et mise en avant produit",
+      "category": "Commercial",
+      "duration": "15 min",
+      "thumbnailColor": "#A28B83",
+      "level": "Débutant",
+      "description": "Conseils de présentation et merchandising pour maximiser vos ventes en point de vente.",
+      "restricted": false
+    }
+  ],
+
+  "webinars": [
+    {
+      "id": "w001",
+      "title": "Lancement gamme Été 2025 — Nouveautés Sun Care",
+      "date": "15 Juillet 2025",
+      "time": "14h00",
+      "duration": "60 min",
+      "status": "upcoming"
+    },
+    {
+      "id": "w002",
+      "title": "Formation PRO — Peeling et soins intensifs",
+      "date": "22 Juillet 2025",
+      "time": "10h00",
+      "duration": "90 min",
+      "status": "upcoming"
+    }
+  ]
+}

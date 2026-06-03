@@ -1,0 +1,111 @@
+{
+  "_comment": "All FAQ questions and answers. Add, remove, or edit entries here. 'category' groups questions in the sidebar filter.",
+
+  "categories": [
+    {
+      "category": "Compte & Accès",
+      "questions": [
+        {
+          "q": "Comment obtenir un accès au portail B2B SYN+ZYN ?",
+          "a": "Remplissez le formulaire de demande d'accès sur notre page \"Devenir client B2B\". Un commercial vous contactera sous 2-3 jours ouvrés pour étudier votre profil et établir votre contrat."
+        },
+        {
+          "q": "J'ai oublié mon code client ou mon mot de passe. Que faire ?",
+          "a": "Contactez votre commercial dédié ou écrivez à commercial@synzyn.ma. Nous vous transmettrons vos identifiants sous 24h."
+        },
+        {
+          "q": "Mon code client fonctionne-t-il pour plusieurs utilisateurs ?",
+          "a": "Pour l'instant, un seul accès est fourni par compte client. Si vous souhaitez des accès supplémentaires pour votre équipe, contactez votre commercial."
+        }
+      ]
+    },
+    {
+      "category": "Commandes & Livraison",
+      "questions": [
+        {
+          "q": "Quel est le montant minimum de commande ?",
+          "a": "La commande minimum est de 20 000 MAD HT par livraison, quelle que soit votre type de client."
+        },
+        {
+          "q": "Quels sont les délais de livraison ?",
+          "a": "Les délais de livraison varient selon les produits : 3-5 jours ouvrés pour les produits body care et hair care, 5-7 jours ouvrés pour les produits skincare et makeup, et 7-10 jours ouvrés pour les produits PRO."
+        },
+        {
+          "q": "Comment puis-je suivre ma commande ?",
+          "a": "Un numéro de tracking vous est fourni dès l'expédition de votre commande, visible dans votre espace \"Mes commandes\". Vous pouvez aussi contacter directement votre commercial."
+        },
+        {
+          "q": "Comment annuler une commande ?",
+          "a": "Pour annuler une commande, vous devez impérativement appeler votre commercial dédié. Les annulations ne sont possibles que si la commande n'est pas encore en préparation."
+        },
+        {
+          "q": "Les livraisons partielles sont-elles possibles ?",
+          "a": "Oui, dans certains cas (notamment en cas de rupture de stock partielle). Votre commercial vous en informera en amont."
+        }
+      ]
+    },
+    {
+      "category": "Prix & Contrat",
+      "questions": [
+        {
+          "q": "Comment sont déterminés mes prix contractuels ?",
+          "a": "Vos tarifs sont négociés individuellement avec votre commercial selon votre volume d'achat, votre type de structure et les produits de votre assortiment. Ils sont visibles dans votre portail après connexion."
+        },
+        {
+          "q": "Puis-je commander des produits qui ne sont pas dans mon contrat ?",
+          "a": "Vous pouvez manifester votre intérêt pour des produits hors contrat depuis la fiche produit. Votre commercial vous fera parvenir une offre commerciale."
+        },
+        {
+          "q": "Les prix peuvent-ils évoluer en cours d'année ?",
+          "a": "Vos prix sont fixes pour la durée de votre contrat. En cas de révision, vous en serez informé par écrit au moins 30 jours à l'avance."
+        },
+        {
+          "q": "Qu'est-ce que le MOQ ?",
+          "a": "Le MOQ (Minimum Order Quantity) est la quantité minimale d'un produit à commander. Il varie selon les produits et est indiqué sur chaque fiche produit de votre catalogue contractualisé."
+        }
+      ]
+    },
+    {
+      "category": "Paiement & Facturation",
+      "questions": [
+        {
+          "q": "Quels modes de paiement sont acceptés ?",
+          "a": "Selon votre contrat, vous pouvez payer par virement bancaire (à commercial@synzyn.ma), carte bancaire, chèque ou espèces à la livraison, ou bénéficier d'un crédit client."
+        },
+        {
+          "q": "Comment effectuer un paiement par virement ?",
+          "a": "Effectuez votre virement à commercial@synzyn.ma en mentionnant votre numéro de commande ou de facture en référence. Votre commercial vous confirmera la réception."
+        },
+        {
+          "q": "Où puis-je trouver mes factures ?",
+          "a": "Toutes vos factures sont disponibles dans la section \"Mes factures\" de votre tableau de bord. Vous pouvez les télécharger en PDF."
+        },
+        {
+          "q": "J'ai une facture en retard de paiement. Que dois-je faire ?",
+          "a": "Contactez votre commercial ou écrivez à commercial@synzyn.ma pour régulariser votre situation. Des pénalités de retard peuvent s'appliquer selon vos conditions contractuelles."
+        }
+      ]
+    },
+    {
+      "category": "Produits & Qualité",
+      "questions": [
+        {
+          "q": "Les produits SYN+ZYN sont-ils testés dermatologiquement ?",
+          "a": "Oui, tous nos produits sont testés dermatologiquement et conformes à la réglementation EU et internationale. Les certifications spécifiques à chaque produit sont indiquées sur la fiche produit."
+        },
+        {
+          "q": "Quelle est la durée de conservation (DLC) des produits ?",
+          "a": "La DLC varie selon les produits (12 à 36 mois). Elle est indiquée sur chaque fiche produit et sur l'emballage."
+        },
+        {
+          "q": "Comment gérer les produits en rupture de stock ?",
+          "a": "Les produits en rupture restent visibles sur le site avec leur date de disponibilité estimée. Vous ne pouvez pas les commander en rupture, mais vous pouvez manifester votre intérêt."
+        },
+        {
+          "q": "Est-il possible d'obtenir des échantillons ?",
+          "a": "Oui, contactez votre commercial ou faites une demande via la section \"Support\" de votre tableau de bord."
+        }
+      ]
+    }
+  ]
+}

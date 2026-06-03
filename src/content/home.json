@@ -1,0 +1,88 @@
+{
+  "_comment": "Home page content. Edit hero text, feature strips, category cards, and CTA sections.",
+
+  "hero": {
+    "guest": {
+      "overline": "Bienvenue à nos clients B2B",
+      "heading": "SIMPLY\nYOU.",
+      "subheading": "Des produits de beauté de qualité premium pour vos clients.\nDécouvrez notre catalogue B2B et rejoignez nos partenaires distributeurs.",
+      "ctaPrimary": "Découvrir le catalogue",
+      "ctaSecondary": "Devenir client B2B",
+      "loginPrompt": "Déjà client ?",
+      "loginLink": "Connexion →"
+    },
+    "loggedIn": {
+      "greeting": "BIENVENUE,",
+      "subheading": "Accédez à votre catalogue contractualisé, passez vos commandes et gérez votre compte professionnel.",
+      "ctaPrimary": "Mon catalogue",
+      "ctaSecondary": "Mon compte"
+    },
+    "badge": {
+      "refs": "200+",
+      "refsLabel": "Réf.",
+      "cert": "ISO 22716"
+    }
+  },
+
+  "features": [
+    {
+      "icon": "Shield",
+      "title": "PRODUITS CERTIFIÉS",
+      "desc": "Formulations testées dermatologiquement, conformes aux standards internationaux."
+    },
+    {
+      "icon": "Truck",
+      "title": "LIVRAISON B2B",
+      "desc": "Livraison 5 à 7 jours ouvrés partout au Maroc. Commande min. 20 000 MAD."
+    },
+    {
+      "icon": "FileText",
+      "title": "CONTRAT PERSONNALISÉ",
+      "desc": "Prix négociés, MOQ adaptés et conditions de paiement selon votre profil."
+    },
+    {
+      "icon": "HeadphonesIcon",
+      "title": "SUPPORT COMMERCIAL",
+      "desc": "Un commercial dédié disponible par email et WhatsApp pour chaque client."
+    }
+  ],
+
+  "categories": {
+    "overline": "Notre gamme",
+    "heading": "Catégories",
+    "seeAllLabel": "Tout voir",
+    "items": [
+      { "id": "skincare", "label": "Skincare", "color": "#D9A9B1", "count": 4 },
+      { "id": "makeup", "label": "Makeup", "color": "#C27279", "count": 4 },
+      { "id": "body-care", "label": "Body Care", "color": "#D0B9AB", "count": 2 },
+      { "id": "hair-care", "label": "Hair Care", "color": "#B8ABD0", "count": 2 },
+      { "id": "sun-care", "label": "Sun Care", "color": "#A28B83", "count": 1 }
+    ]
+  },
+
+  "bestSellers": {
+    "overline": "Produits populaires",
+    "heading": "Meilleures ventes",
+    "seeAllLabel": "Catalogue complet"
+  },
+
+  "b2bCta": {
+    "overline": "Rejoignez nos partenaires",
+    "heading": "Devenez client B2B\nSYN+ZYN",
+    "body": "Pharmacies, revendeurs, spas, cliniques — obtenez vos conditions tarifaires personnalisées et accédez à notre gamme complète avec prix et MOQ dédiés.",
+    "ctaPrimary": "Créer un compte professionnel",
+    "ctaSecondary": "Parler à un commercial"
+  },
+
+  "brandStory": {
+    "overline": "Notre vision",
+    "heading": "LA QUALITÉ\nACCESSIBLE\nÀ TOUS.",
+    "body1": "SYN+ZYN redéfinit ce que peut être un produit de beauté accessible — une formulation sérieuse, une présentation soignée, et des performances à la hauteur des attentes professionnelles.",
+    "body2": "Makeup, skincare, soins corps et cheveux — une gamme complète, testée dermatologiquement, pensée pour les professionnels qui exigent le meilleur pour leurs clients.",
+    "stats": [
+      { "value": "14", "label": "Catégories" },
+      { "value": "200+", "label": "Références" },
+      { "value": "ISO 22716", "label": "Certifié" }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_comment": "Contact page info and sales reps. Edit 'reps' to add/remove commercial contacts.",
+
+  "page": {
+    "heading": "Nous contacter",
+    "subheading": "Notre équipe commerciale est disponible pour répondre à toutes vos questions.",
+    "formHeading": "Envoyez-nous un message",
+    "infoHeading": "Équipe commerciale",
+    "repsHeading": "Commerciaux dédiés",
+    "successHeading": "Message envoyé !",
+    "successBody": "Notre équipe commerciale vous répondra sous 24h ouvrées."
+  },
+
+  "info": {
+    "email": "commercial@synzyn.ma",
+    "phone": "+212 522 100 200",
+    "whatsapp": "+212 661 100 200",
+    "address": "Immeuble Tafraouti\nKm 7.5, Route de Rabat\nAïn Sebaâ — Casablanca",
+    "hours": "Lundi — Vendredi\n9h00 — 18h00"
+  },
+
+  "reps": [
+    {
+      "name": "Sofia Alaoui",
+      "role": "Commercial Manager",
+      "zone": "Casablanca — Rabat",
+      "email": "s.alaoui@synzyn.ma",
+      "phone": "+212 522 100 200",
+      "whatsapp": "+212 661 100 200"
+    },
+    {
+      "name": "Youssef Benali",
+      "role": "Key Account Manager",
+      "zone": "Maroc national",
+      "email": "y.benali@synzyn.ma",
+      "phone": "+212 522 100 300",
+      "whatsapp": "+212 661 100 300"
+    },
+    {
+      "name": "Leila Mansouri",
+      "role": "Retail & Grande distribution",
+      "zone": "Maroc national",
+      "email": "l.mansouri@synzyn.ma",
+      "phone": "+212 522 100 400",
+      "whatsapp": "+212 661 100 400"
+    }
+  ],
+
+  "subjects": [
+    { "value": "nouveau-client", "label": "Devenir client B2B" },
+    { "value": "tarifs", "label": "Demande de tarification" },
+    { "value": "commande", "label": "Question commande / livraison" },
+    { "value": "produit", "label": "Information produit" },
+    { "value": "formation", "label": "Formation professionnelle" },
+    { "value": "autre", "label": "Autre" }
+  ]
+}
