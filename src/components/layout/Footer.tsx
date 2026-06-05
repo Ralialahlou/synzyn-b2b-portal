@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Logo from '../ui/Logo';
 
 export default function Footer() {
   return (
@@ -8,7 +9,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="mb-4">
-              <img src={`${import.meta.env.BASE_URL}logo-light.svg`} alt="SYN&ZYN" className="h-16 w-auto" />
+              <Logo variant="light" className="h-16 w-auto" />
             </div>
             <p className="font-courier text-brand-beige text-xs leading-relaxed tracking-brand mb-4">
               simply you.<br />

@@ -3,6 +3,7 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { ShoppingCart, User, Menu, X, LogOut, ChevronDown, Search } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 import { useCart } from '../../context/CartContext';
+import Logo from '../ui/Logo';
 
 const NAV_LINKS = [
   { label: 'CATALOGUE', href: '/catalogue' },
@@ -47,7 +48,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
-            <img src={`${import.meta.env.BASE_URL}logo-light.svg`} alt="SYN&ZYN" className="h-12 w-auto" />
+            <Logo variant="light" className="h-12 w-auto" />
           </Link>
 
           {/* Desktop Nav */}
