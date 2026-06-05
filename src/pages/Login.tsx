@@ -33,7 +33,7 @@ export default function Login() {
           {/* Logo */}
           <div className="text-center mb-10">
             <div className="flex justify-center mb-4">
-              <img src="/logo-dark.png" alt="SYN&ZYN" className="h-20 w-auto" />
+              <img src="/logo-dark.svg" alt="SYN&ZYN" className="h-20 w-auto" />
             </div>
             <h1 className="font-courier text-2xl text-brand-dark uppercase tracking-brand-wide">
               Espace client
