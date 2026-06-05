@@ -77,7 +77,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-gradient-to-br from-brand-dark/50 via-transparent to-brand-dark/30" />
 
                   {/* Central product stack */}
-                  <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="absolute inset-0 flex items-center justify-center" aria-hidden="true">
                     <div className="flex gap-3 items-end">
                       {[
                         { color: '#D9A9B1', h: 'h-36', label: 'SERUM' },
@@ -97,7 +97,7 @@ export default function Home() {
                   </div>
 
                   {/* Top label */}
-                  <div className="absolute top-5 left-5">
+                  <div className="absolute top-5 left-5" aria-hidden="true">
                     <div className="font-courier text-xs text-white/60 uppercase tracking-brand-wider">Collection</div>
                     <div className="font-courier text-base text-white uppercase tracking-brand-wide leading-tight">
                       SYN+ZYN<br />2025
@@ -105,14 +105,14 @@ export default function Home() {
                   </div>
 
                   {/* Bottom tagline */}
-                  <div className="absolute bottom-5 left-5 right-5 border-t border-white/20 pt-3">
+                  <div className="absolute bottom-5 left-5 right-5 border-t border-white/20 pt-3" aria-hidden="true">
                     <div className="font-courier text-xs text-white/80 italic tracking-brand">simply you.</div>
                     <div className="font-courier text-xs text-white/50 tracking-brand mt-0.5">for all people. everyday.</div>
                   </div>
                 </div>
 
                 {/* Floating badge */}
-                <div className="absolute -top-3 -right-3 w-16 h-16 bg-brand-rose flex items-center justify-center shadow-lg">
+                <div className="absolute -top-3 -right-3 w-16 h-16 bg-brand-rose flex items-center justify-center shadow-lg" aria-hidden="true">
                   <div className="text-center">
                     <div className="font-courier text-[7px] text-white uppercase tracking-wider leading-tight">200+<br />Réf.</div>
                   </div>
@@ -120,7 +120,7 @@ export default function Home() {
 
                 {/* Floating cert badge */}
                 <div className="absolute -bottom-3 -left-3 bg-white border border-brand-beige px-3 py-2 shadow-lg">
-                  <div className="font-courier text-xs text-brand-taupe uppercase tracking-brand">Certifié</div>
+                  <div className="font-courier text-xs text-brand-muted uppercase tracking-brand">Certifié</div>
                   <div className="font-courier text-xs text-brand-dark">ISO 22716</div>
                 </div>
               </div>
@@ -140,7 +140,7 @@ export default function Home() {
                     BIENVENUE,<br />
                     <span className="text-brand-beige">{client?.companyName.split(' ')[0].toUpperCase()}</span>
                   </h1>
-                  <p className="font-courier text-brand-taupe text-sm mt-4 leading-relaxed tracking-brand">
+                  <p className="font-courier text-brand-beige text-sm mt-4 leading-relaxed tracking-brand">
                     Accédez à votre catalogue contractualisé, passez vos commandes
                     et gérez votre compte professionnel.
                   </p>
@@ -148,21 +148,21 @@ export default function Home() {
                     <Link to="/catalogue" className="btn-outline-light inline-flex items-center justify-center gap-2">
                       Mon catalogue <ArrowRight size={14} />
                     </Link>
-                    <Link to="/dashboard" className="btn-secondary border-brand-taupe text-brand-taupe hover:bg-brand-taupe hover:text-brand-dark inline-flex items-center justify-center gap-2">
+                    <Link to="/dashboard" className="btn-secondary border-brand-beige text-brand-beige hover:bg-brand-beige hover:text-brand-dark inline-flex items-center justify-center gap-2">
                       Mon compte
                     </Link>
                   </div>
                 </>
               ) : (
                 <>
-                  <p className="font-courier text-brand-taupe text-xs tracking-brand-wider uppercase mb-4">
+                  <p className="font-courier text-brand-beige text-xs tracking-brand-wider uppercase mb-4">
                     Bienvenue à nos clients B2B
                   </p>
                   <h1 className="font-courier text-4xl sm:text-5xl md:text-6xl text-brand-cream leading-tight tracking-brand">
                     SIMPLY<br />
                     <span className="text-brand-beige">YOU.</span>
                   </h1>
-                  <p className="font-courier text-brand-taupe text-sm mt-4 leading-relaxed tracking-brand">
+                  <p className="font-courier text-brand-beige text-sm mt-4 leading-relaxed tracking-brand">
                     Des produits de beauté de qualité premium pour vos clients.
                     Découvrez notre catalogue B2B et rejoignez nos partenaires distributeurs.
                   </p>
@@ -170,13 +170,13 @@ export default function Home() {
                     <Link to="/catalogue" className="btn-outline-light inline-flex items-center justify-center gap-2">
                       Découvrir le catalogue <ArrowRight size={14} />
                     </Link>
-                    <Link to="/register" className="btn-secondary border-brand-taupe text-brand-taupe hover:bg-brand-taupe hover:text-brand-dark inline-flex items-center justify-center gap-2">
+                    <Link to="/register" className="btn-secondary border-brand-beige text-brand-beige hover:bg-brand-beige hover:text-brand-dark inline-flex items-center justify-center gap-2">
                       Devenir client B2B
                     </Link>
                   </div>
-                  <p className="font-courier text-xs text-brand-taupe/60 mt-6 tracking-brand">
+                  <p className="font-courier text-xs text-brand-beige mt-6 tracking-brand">
                     Déjà client ?{' '}
-                    <Link to="/login" className="text-brand-beige hover:underline">
+                    <Link to="/login" className="text-brand-cream underline hover:text-brand-beige">
                       Connexion →
                     </Link>
                   </p>
@@ -193,9 +193,9 @@ export default function Home() {
           <div className="grid grid-cols-2 lg:grid-cols-4 divide-x divide-brand-beige">
             {FEATURES.map(({ icon: Icon, title, desc }) => (
               <div key={title} className="px-6 py-6 flex flex-col gap-2">
-                <Icon size={18} className="text-brand-taupe" />
-                <h3 className="font-courier text-xs tracking-brand-wide text-brand-dark uppercase">{title}</h3>
-                <p className="font-courier text-xs text-brand-taupe leading-relaxed hidden lg:block">{desc}</p>
+                <Icon size={18} className="text-brand-muted" />
+                <p className="font-courier text-xs tracking-brand-wide text-brand-dark uppercase font-bold">{title}</p>
+                <p className="font-courier text-xs text-brand-muted leading-relaxed hidden lg:block">{desc}</p>
               </div>
             ))}
           </div>
@@ -207,12 +207,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-end justify-between mb-8">
             <div>
-              <p className="font-courier text-xs text-brand-taupe tracking-brand-wider uppercase mb-1">Notre gamme</p>
+              <p className="font-courier text-xs text-brand-muted tracking-brand-wider uppercase mb-1">Notre gamme</p>
               <h2 className="font-courier text-2xl md:text-3xl text-brand-dark tracking-brand-wide uppercase">
                 Catégories
               </h2>
             </div>
-            <Link to="/catalogue" className="hidden sm:flex items-center gap-1 font-courier text-xs text-brand-taupe hover:text-brand-dark tracking-brand uppercase">
+            <Link to="/catalogue" className="hidden sm:flex items-center gap-1 font-courier text-xs text-brand-muted hover:text-brand-dark tracking-brand uppercase">
               Tout voir <ChevronRight size={14} />
             </Link>
           </div>
@@ -253,12 +253,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-end justify-between mb-8">
             <div>
-              <p className="font-courier text-xs text-brand-taupe tracking-brand-wider uppercase mb-1">Produits populaires</p>
+              <p className="font-courier text-xs text-brand-muted tracking-brand-wider uppercase mb-1">Produits populaires</p>
               <h2 className="font-courier text-2xl md:text-3xl text-brand-dark tracking-brand-wide uppercase">
                 Meilleures ventes
               </h2>
             </div>
-            <Link to="/catalogue" className="hidden sm:flex items-center gap-1 font-courier text-xs text-brand-taupe hover:text-brand-dark tracking-brand uppercase">
+            <Link to="/catalogue" className="hidden sm:flex items-center gap-1 font-courier text-xs text-brand-muted hover:text-brand-dark tracking-brand uppercase">
               Catalogue complet <ChevronRight size={14} />
             </Link>
           </div>
@@ -275,13 +275,13 @@ export default function Home() {
       {!isLoggedIn && (
         <section className="bg-brand-dark py-16 md:py-24">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p className="font-courier text-brand-taupe text-xs tracking-brand-wider uppercase mb-4">
+            <p className="font-courier text-brand-beige text-xs tracking-brand-wider uppercase mb-4">
               Rejoignez nos partenaires
             </p>
             <h2 className="font-courier text-3xl md:text-4xl text-brand-cream tracking-brand-wide uppercase mb-4">
               Devenez client B2B<br />SYN+ZYN
             </h2>
-            <p className="font-courier text-brand-taupe text-sm leading-relaxed max-w-lg mx-auto mb-8 tracking-brand">
+            <p className="font-courier text-brand-beige text-sm leading-relaxed max-w-lg mx-auto mb-8 tracking-brand">
               Pharmacies, revendeurs, spas, cliniques — obtenez vos conditions tarifaires
               personnalisées et accédez à notre gamme complète avec prix et MOQ dédiés.
             </p>
@@ -289,7 +289,7 @@ export default function Home() {
               <Link to="/register" className="btn-outline-light">
                 Créer un compte professionnel
               </Link>
-              <Link to="/contact" className="btn-secondary border-brand-taupe text-brand-taupe hover:bg-brand-taupe hover:text-brand-dark">
+              <Link to="/contact" className="btn-secondary border-brand-beige text-brand-beige hover:bg-brand-beige hover:text-brand-dark">
                 Parler à un commercial
               </Link>
             </div>
@@ -302,15 +302,15 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="font-courier text-xs text-brand-taupe tracking-brand-wider uppercase mb-3">Notre vision</p>
+              <p className="font-courier text-xs text-brand-muted tracking-brand-wider uppercase mb-3">Notre vision</p>
               <h2 className="font-courier text-3xl md:text-4xl text-brand-dark tracking-brand-wide uppercase mb-6 leading-tight">
                 LA QUALITÉ<br />ACCESSIBLE<br />À TOUS.
               </h2>
-              <p className="font-courier text-brand-taupe text-sm leading-relaxed tracking-brand mb-4">
+              <p className="font-courier text-brand-muted text-sm leading-relaxed tracking-brand mb-4">
                 SYN+ZYN redéfinit ce que peut être un produit de beauté accessible — une formulation sérieuse,
                 une présentation soignée, et des performances à la hauteur des attentes professionnelles.
               </p>
-              <p className="font-courier text-brand-taupe text-sm leading-relaxed tracking-brand">
+              <p className="font-courier text-brand-muted text-sm leading-relaxed tracking-brand">
                 Makeup, skincare, soins corps et cheveux — une gamme complète, testée dermatologiquement,
                 pensée pour les professionnels qui exigent le meilleur pour leurs clients.
               </p>
@@ -318,7 +318,7 @@ export default function Home() {
                 {[['14', 'Catégories'], ['200+', 'Références'], ['ISO 22716', 'Certifié']].map(([val, label]) => (
                   <div key={label}>
                     <div className="font-courier text-2xl text-brand-dark tracking-brand">{val}</div>
-                    <div className="font-courier text-xs text-brand-taupe tracking-brand-wide uppercase">{label}</div>
+                    <div className="font-courier text-xs text-brand-muted tracking-brand-wide uppercase">{label}</div>
                   </div>
                 ))}
               </div>
@@ -331,8 +331,8 @@ export default function Home() {
                 { color: '#D9A9B1', label: 'SKINCARE', h: 'h-40' },
               ].map(({ color, label, h }) => (
                 <div key={label} className={`${h} relative overflow-hidden`} style={{ backgroundColor: color + '25' }}>
-                  <div className="absolute inset-0 flex items-end p-4" style={{ background: `linear-gradient(to top, ${color}60, transparent)` }}>
-                    <span className="font-courier text-xs text-brand-dark tracking-brand-wide uppercase">{label}</span>
+                  <div className="absolute inset-0 flex items-end p-4" style={{ background: `linear-gradient(to top, ${color}90, transparent)` }}>
+                    <span className="font-courier text-xs text-white tracking-brand-wide uppercase">{label}</span>
                   </div>
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-14 rounded-sm shadow-md" style={{ backgroundColor: color }} />
                 </div>

@@ -27,6 +27,7 @@ export default function ProductCard({ product }: Props) {
         <div
           className="relative w-20 h-28 rounded-sm shadow-md group-hover:scale-105 transition-transform duration-300"
           style={{ backgroundColor: product.imageColor }}
+          aria-hidden="true"
         >
           <div className="absolute inset-0 flex flex-col items-center justify-end pb-2 px-1">
             <span className="font-courier text-[7px] text-white/80 uppercase tracking-wider text-center leading-tight">
@@ -48,7 +49,7 @@ export default function ProductCard({ product }: Props) {
             </span>
           )}
           {product.isBestSeller && (
-            <span className="flex items-center gap-1 bg-brand-taupe text-brand-cream px-2 py-0.5 font-courier text-xs uppercase tracking-brand">
+            <span className="flex items-center gap-1 bg-brand-dark text-brand-cream px-2 py-0.5 font-courier text-xs uppercase tracking-brand">
               <Star size={8} /> Meilleures ventes
             </span>
           )}
@@ -61,7 +62,7 @@ export default function ProductCard({ product }: Props) {
 
         {!product.inStock && (
           <div className="absolute inset-0 bg-white/60 flex items-center justify-center">
-            <span className="font-courier text-xs text-brand-taupe uppercase tracking-brand">Rupture de stock</span>
+            <span className="font-courier text-xs text-brand-muted uppercase tracking-brand">Rupture de stock</span>
           </div>
         )}
       </div>
@@ -70,10 +71,10 @@ export default function ProductCard({ product }: Props) {
       <div className="p-4">
         <div className="flex items-start justify-between gap-2">
           <div className="flex-1 min-w-0">
-            <p className="font-courier text-xs text-brand-taupe uppercase tracking-brand truncate">
+            <p className="font-courier text-xs text-brand-muted uppercase tracking-brand truncate">
               {product.category.replace('-', ' ')} — {product.subCategory}
             </p>
-            <h3 className="font-courier text-sm text-brand-dark mt-0.5 leading-tight group-hover:text-brand-taupe transition-colors">
+            <h3 className="font-courier text-sm text-brand-dark mt-0.5 leading-tight group-hover:text-brand-muted transition-colors">
               {product.name}
             </h3>
           </div>
@@ -90,23 +91,23 @@ export default function ProductCard({ product }: Props) {
                 <span className="font-courier text-base text-brand-dark">
                   {contractProduct.price.unit.toFixed(2)}
                 </span>
-                <span className="font-courier text-xs text-brand-taupe">MAD / unité</span>
+                <span className="font-courier text-xs text-brand-muted">MAD / unité</span>
               </div>
-              <p className="font-courier text-xs text-brand-taupe mt-0.5 tracking-brand">
+              <p className="font-courier text-xs text-brand-muted mt-0.5 tracking-brand">
                 MOQ: {contractProduct.moq} {contractProduct.moqUnit}s · {contractProduct.deliveryLeadTime}
               </p>
             </div>
           ) : isLoggedIn && !inContract ? (
             <div className="flex items-center gap-1.5">
-              <Lock size={11} className="text-brand-taupe" />
-              <span className="font-courier text-xs text-brand-taupe tracking-brand uppercase">
+              <Lock size={11} className="text-brand-muted" />
+              <span className="font-courier text-xs text-brand-muted tracking-brand uppercase">
                 Hors contrat — Demander un devis
               </span>
             </div>
           ) : (
             <div className="flex items-center gap-1.5">
-              <Lock size={11} className="text-brand-taupe" />
-              <span className="font-courier text-xs text-brand-taupe tracking-brand uppercase">
+              <Lock size={11} className="text-brand-muted" />
+              <span className="font-courier text-xs text-brand-muted tracking-brand uppercase">
                 Connexion requise
               </span>
             </div>

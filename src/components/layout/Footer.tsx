@@ -10,14 +10,14 @@ export default function Footer() {
             <div className="mb-4">
               <img src="/logo-light.png" alt="SYN&ZYN" className="h-16 w-auto" />
             </div>
-            <p className="font-courier text-brand-taupe text-xs leading-relaxed tracking-brand mb-4">
+            <p className="font-courier text-brand-beige text-xs leading-relaxed tracking-brand mb-4">
               simply you.<br />
               for all people. everyday.
             </p>
-            <p className="font-courier text-xs text-brand-taupe/70 leading-relaxed tracking-brand mb-4 max-w-xs">
+            <p className="font-courier text-xs text-brand-beige/85 leading-relaxed tracking-brand mb-4 max-w-xs">
               SYN+ZYN crée des produits de beauté qui combinent performance, qualité et accessibilité — redéfinissant ce que peut signifier "accessible".
             </p>
-            <div className="space-y-1 text-xs text-brand-taupe font-courier">
+            <div className="space-y-1 text-xs text-brand-beige font-courier">
               <p>commercial@synzyn.ma</p>
               <p>+212 522 100 200</p>
             </div>
@@ -25,13 +25,13 @@ export default function Footer() {
 
           {/* Catalogue */}
           <div>
-            <h4 className="font-courier text-xs tracking-brand-wide uppercase text-brand-beige mb-4">Catalogue</h4>
+            <h3 className="font-courier text-xs tracking-brand-wide uppercase text-brand-beige mb-4">Catalogue</h3>
             <ul className="space-y-2.5">
               {['Skincare', 'Makeup', 'Soins corps', 'Soins cheveux', 'Solaire', 'Gamme PRO'].map((cat) => (
                 <li key={cat}>
                   <Link
                     to={`/catalogue?category=${cat.toLowerCase().replace(' ', '-')}`}
-                    className="font-courier text-xs text-brand-taupe hover:text-brand-cream transition-colors tracking-brand"
+                    className="font-courier text-xs text-brand-beige hover:text-brand-cream transition-colors tracking-brand"
                   >
                     {cat}
                   </Link>
@@ -42,7 +42,7 @@ export default function Footer() {
 
           {/* Espace Client */}
           <div>
-            <h4 className="font-courier text-xs tracking-brand-wide uppercase text-brand-beige mb-4">Espace Client</h4>
+            <h3 className="font-courier text-xs tracking-brand-wide uppercase text-brand-beige mb-4">Espace Client</h3>
             <ul className="space-y-2.5">
               {[
                 { label: 'Mon tableau de bord', href: '/dashboard' },
@@ -55,7 +55,7 @@ export default function Footer() {
                 <li key={item.href}>
                   <Link
                     to={item.href}
-                    className="font-courier text-xs text-brand-taupe hover:text-brand-cream transition-colors tracking-brand"
+                    className="font-courier text-xs text-brand-beige hover:text-brand-cream transition-colors tracking-brand"
                   >
                     {item.label}
                   </Link>
@@ -66,7 +66,7 @@ export default function Footer() {
 
           {/* À propos + Support */}
           <div>
-            <h4 className="font-courier text-xs tracking-brand-wide uppercase text-brand-beige mb-4">À propos</h4>
+            <h3 className="font-courier text-xs tracking-brand-wide uppercase text-brand-beige mb-4">À propos</h3>
             <ul className="space-y-2.5 mb-6">
               {[
                 { label: 'Notre histoire', href: '/about' },
@@ -78,7 +78,7 @@ export default function Footer() {
                 <li key={item.href}>
                   <Link
                     to={item.href}
-                    className="font-courier text-xs text-brand-taupe hover:text-brand-cream transition-colors tracking-brand"
+                    className="font-courier text-xs text-brand-beige hover:text-brand-cream transition-colors tracking-brand"
                   >
                     {item.label}
                   </Link>
@@ -86,7 +86,7 @@ export default function Footer() {
               ))}
             </ul>
 
-            <h4 className="font-courier text-xs tracking-brand-wide uppercase text-brand-beige mb-3">Support</h4>
+            <h3 className="font-courier text-xs tracking-brand-wide uppercase text-brand-beige mb-3">Support</h3>
             <ul className="space-y-2.5">
               {[
                 { label: 'FAQ', href: '/faq' },
@@ -96,7 +96,7 @@ export default function Footer() {
                 <li key={item.href}>
                   <Link
                     to={item.href}
-                    className="font-courier text-xs text-brand-taupe hover:text-brand-cream transition-colors tracking-brand"
+                    className="font-courier text-xs text-brand-beige hover:text-brand-cream transition-colors tracking-brand"
                   >
                     {item.label}
                   </Link>
@@ -107,10 +107,10 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-brand-taupe/30 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="font-courier text-xs text-brand-taupe/60 tracking-brand">
+          <p className="font-courier text-xs text-brand-beige/80 tracking-brand">
             © 2025 SYN+ZYN — Tous droits réservés. Une marque du Groupe AKSAL.
           </p>
-          <p className="font-courier text-xs text-brand-taupe/60 tracking-brand">
+          <p className="font-courier text-xs text-brand-beige/80 tracking-brand">
             KAK SYNERGY SA — IF: 52426360 — RC: 542021 — ICE: 003043488000053
           </p>
         </div>

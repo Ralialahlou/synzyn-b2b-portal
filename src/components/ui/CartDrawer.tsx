@@ -33,7 +33,7 @@ export default function CartDrawer() {
               Mon panier ({items.length} article{items.length !== 1 ? 's' : ''})
             </span>
           </div>
-          <button onClick={() => setCartOpen(false)} className="text-brand-cream/60 hover:text-brand-cream">
+          <button aria-label="Fermer le panier" onClick={() => setCartOpen(false)} className="text-brand-cream/60 hover:text-brand-cream">
             <X size={20} />
           </button>
         </div>

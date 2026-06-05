@@ -13,6 +13,7 @@ export default {
           lavender: '#B8ABD0',
           cream: '#FAF8F5',
           'cream-dark': '#F2EDE8',
+          'muted': '#745E5C',
         },
       },
       fontFamily: {
