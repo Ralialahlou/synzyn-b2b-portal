@@ -1,0 +1,25 @@
+User-agent: *
+
+# Allow public pages
+Allow: /
+Allow: /about
+Allow: /catalogue
+Allow: /product/
+Allow: /faq
+Allow: /contact
+Allow: /training
+Allow: /register
+Allow: /search
+
+# Block authenticated / private pages
+Disallow: /dashboard
+Disallow: /checkout
+Disallow: /login
+Disallow: /cgv
+Disallow: /privacy
+
+# Block internal assets
+Disallow: /src/
+Disallow: /node_modules/
+
+Sitemap: https://b2b.synzyn.ma/sitemap.xml
