@@ -47,7 +47,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
-            <img src="/logo-light.svg" alt="SYN&ZYN" className="h-12 w-auto" />
+            <img src={`${import.meta.env.BASE_URL}logo-light.svg`} alt="SYN&ZYN" className="h-12 w-auto" />
           </Link>
 
           {/* Desktop Nav */}

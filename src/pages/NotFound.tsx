@@ -6,7 +6,7 @@ export default function NotFound() {
       <div className="text-center max-w-md">
         {/* Logo mark */}
         <div className="mb-8 flex justify-center">
-          <img src="/logo-dark.svg" alt="SYN&ZYN" className="h-24 w-auto opacity-20" />
+          <img src={`${import.meta.env.BASE_URL}logo-dark.svg`} alt="SYN&ZYN" className="h-24 w-auto opacity-20" />
         </div>
 
         <p className="font-courier text-brand-taupe text-xs tracking-brand-wider uppercase mb-3">
