@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Eye, EyeOff, AlertCircle } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
-import Logo from '../components/ui/Logo';
 
 export default function Login() {
   const navigate = useNavigate();
@@ -34,7 +33,7 @@ export default function Login() {
           {/* Logo */}
           <div className="text-center mb-10">
             <div className="flex justify-center mb-4">
-              <Logo variant="dark" className="h-20 w-auto" />
+              <img src={`${import.meta.env.BASE_URL}logo-dark.png`} alt="SYN+ZYN" className="h-20 w-auto" />
             </div>
             <h1 className="font-courier text-2xl text-brand-dark uppercase tracking-brand-wide">
               Espace client
